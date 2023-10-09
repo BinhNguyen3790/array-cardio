@@ -83,3 +83,5 @@ function renderElm(members) {
   tableElm.innerHTML = memberElm.join("");
 }
 renderElm(members);
+
+// part 2
