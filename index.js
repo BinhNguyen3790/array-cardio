@@ -99,3 +99,7 @@ const comments = [
   { text: "Ramen is my fav food ever", id: 123523 },
   { text: "Nice Nice Nice!", id: 542328 },
 ];
+
+// some
+const isAdult = people.some((person) => new Date().getFullYear() - person.year >= 19);
+console.log({ isAdult });
