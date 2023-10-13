@@ -103,3 +103,7 @@ const comments = [
 // some
 const isAdult = people.some((person) => new Date().getFullYear() - person.year >= 19);
 console.log({ isAdult });
+
+// every
+const allAdults = people.every((person) => new Date().getFullYear() - person.year >= 19);
+console.log({ allAdults });
