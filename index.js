@@ -107,3 +107,7 @@ console.log({ isAdult });
 // every
 const allAdults = people.every((person) => new Date().getFullYear() - person.year >= 19);
 console.log({ allAdults });
+
+// find
+const comment = comments.find((comment) => comment.id === 823423);
+console.log(comment);
