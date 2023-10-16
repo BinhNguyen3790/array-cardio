@@ -111,3 +111,7 @@ console.log({ allAdults });
 // find
 const comment = comments.find((comment) => comment.id === 823423);
 console.log(comment);
+
+// find index
+const index = comments.findIndex((comment) => comment.id === 823423);
+console.log(index);
